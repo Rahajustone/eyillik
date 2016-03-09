@@ -1,0 +1,119 @@
+body {
+    color: #000;
+	font-family: 'pacifico', arial, sans-serif;
+ }
+.body {
+    width: 800px;
+    background-size: 800px;
+    margin:0 auto;
+    
+    
+
+    
+}
+.body-main{
+    width: 100%;
+   background-color: darkgray;
+    height: auto;
+    padding: 5px;
+   
+}
+.navbar  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+.navbar  li {
+    width: 120px;
+    float: left;
+    border-right:1px solid #bbb;
+     background-color: rgba(32, 199, 212, 0.92);
+        border-radius: 20px 20px 0 0;
+
+}
+
+.navbar  li:last-child {
+    border-right: none;
+}
+
+.navbar  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     border-radius: 20px 20px 0 0;
+}
+
+.navbar  li a:hover:not(.active) {
+    background-color: #111;
+}
+.navbar li a:active {
+    background-color: darkgrey;
+}
+
+
+
+.selectkose{
+    float: right;
+    width: 120px;
+    height: 40px;
+    background-color:  rgba(32, 199, 212, 0.92);
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: white;
+}
+/*inside*/
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+.forbackground{
+    background-color: rgba(25, 23, 23, 0.58);
+    padding: 10px;
+}
+.main {
+    margin-top: 10px;
+}
+.mainmain {
+    background-color: whitesmoke;
+    margin-left: 5px;
+}
+.yorum {
+    margin-top: 10px;
+}
+.paylas {
+    float: right;
+    margin-top: 10px;
+}
+.yorum1 {
+    style:1px solid black;
+    width:200px;
+}
+
+.yillikmenu{
+    height: auto;
+}
